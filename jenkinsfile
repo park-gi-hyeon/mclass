@@ -32,6 +32,7 @@ pipeline {
         stage('Maven Bulid'){
             steps{
                 // 테스트는 건너뛰고 Maven 빌드
+                //s
                 sh 'mvn clean package-DskipTests'
             }
         }
