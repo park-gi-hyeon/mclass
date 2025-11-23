@@ -37,7 +37,7 @@ pipeline {
             }
         }
 
-        stage('Prepare jar'){
+        stage('Prepare Jar'){
             steps{
                 sh 'cp target/demo-0.0.1-SNAPSHOT.jar $(JAR_FILE_NAME)'
             }
